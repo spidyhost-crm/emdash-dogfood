@@ -22,6 +22,7 @@ export default defineConfig({
 			sandboxed: [webhookNotifierPlugin()],
 			sandboxRunner: sandbox(),
 			marketplace: "https://marketplace.emdashcms.com",
+			mcp: true,
 		}),
 	],
 	fonts: [
